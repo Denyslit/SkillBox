@@ -1,0 +1,736 @@
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0;
+    margin-left: 25px;
+    height: 100%;
+  }
+  .section-hero-container-img {
+    width: 311.14px;
+    height: 342.26px;
+    left: 365px;
+    top: 72px;
+  }
+
+  .h1 {
+    width: 385px;
+    height: 92px;
+    left: 0;
+    top: 116px;
+
+    font-size: 50px;
+    line-height: 100%;
+  }
+  .hero-description {
+    width: 345px;
+    height: 94px;
+    left: 0px;
+    top: 250px;
+
+    font-size: 18px;
+  }
+  .btn-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 75.5px;
+
+    position: absolute;
+    width: 270px;
+    height: 69px;
+    left: 0px;
+    top: 395px;
+
+    background: #3f2aff;
+    border-radius: 20px;
+  }
+
+  .about-img-block {
+    width: 211px;
+    height: 187px;
+  }
+  .about-h2 {
+    position: relative;
+    width: 380px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+
+    font-size: 40px;
+  }
+
+  .section-about-description {
+    position: absolute;
+    width: 450px;
+    height: 130px;
+    left: 0px;
+
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+  }
+  .section-about-text {
+    left: 265px;
+  }
+  .section-about-img-svg {
+    display: block;
+  }
+  .section-about-img {
+    justify-content: flex-start;
+  }
+
+  .about-subtitle {
+    position: relative;
+    width: 210px;
+    height: 68px;
+    left: 0px;
+    top: 15px;
+
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .section-teachers {
+    height: 910px;
+  }
+  .teachers-card {
+    width: 35%;
+  }
+  .teachers-card:nth-child(3),
+  .teachers-card:nth-child(4) {
+    margin-top: 30px;
+  }
+  .teachers-name {
+    width: 261px;
+    height: 20px;
+    left: 0;
+    top: 0;
+
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+  }
+  .teachers-name-description {
+    width: 330px;
+    height: 89px;
+    left: 0;
+    top: 0;
+
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .section-teachers-h2 {
+    left: 40px;
+  }
+  .section-courses {
+    height: 1200px;
+  }
+  .courses {
+    width: 33%;
+    height: 556px;
+  }
+  .courses:nth-child(1),
+  .courses:nth-child(3) {
+    margin-left: 10px;
+  }
+  .section-courses-h2 {
+    left: 0;
+  }
+  .courses-name {
+    width: 262px;
+    height: 20px;
+    margin-top: -30px;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+  }
+  .coureses-name-subtitle {
+    width: 270px;
+    height: 185px;
+
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0;
+    margin-left: 15px;
+    max-width: 576px;
+    height: 100%;
+  }
+  .header {
+    position: relative;
+    height: 133px;
+    width: 100%;
+  }
+  .Logo {
+    margin-top: 30px;
+  }
+  .nav {
+    margin-bottom: 30px;
+  }
+  .header-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-hero-container-img {
+    display: none;
+  }
+  .section-about {
+    height: 534px;
+    margin-bottom: 170px;
+  }
+  .about-img-block {
+    width: 150px;
+    height: 134px;
+  }
+
+  .about-h2 {
+    width: 330px;
+    height: 114px;
+    left: 0;
+    top: 0;
+
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .section-about-description {
+    width: 330px;
+    height: 179px;
+    left: 0px;
+    top: 145px;
+
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .section-about-text {
+    width: 330px;
+    height: 323px;
+    left: 170px;
+    top: 15px;
+  }
+  .section-about-img {
+    margin-top: 220px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .about-subtitle {
+    width: 134px;
+    height: 86px;
+
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .section-about-img-svg {
+    width: 150px;
+    height: 181px;
+  }
+  .teachers-name-description {
+    width: 220px;
+  }
+  .courses:nth-child(1),
+  .courses:nth-child(3) {
+    margin-left: 0px;
+  }
+  .teachers-card:last-child {
+    margin-right: 0;
+  }
+
+  .section-courses {
+    width: 510px;
+    height: 1394px;
+  }
+  .courses {
+    width: 24%;
+    height: 556px;
+  }
+
+  .courses {
+    width: 240px;
+    height: 653px;
+  }
+  .courses-name {
+    width: 195px;
+    height: 41px;
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+  }
+  .coureses-name-subtitle {
+    width: 180px;
+    height: 257px;
+
+    font-size: 16px;
+    line-height: 150%;
+  }
+  ..btn-courses {
+    padding: 20.5px 48px;
+
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 30px;
+    top: 563px;
+
+    border-radius: 20px;
+  }
+  .courses-card-img {
+    height: 180px;
+    background-size: 100% 180px;
+  }
+  .courses-description {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    height: 80px;
+  }
+  .nav {
+    display: none;
+  }
+  .header-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+  .section-hero {
+    width: 353px;
+  }
+  .h1 {
+    width: 226px;
+    height: 55px;
+    left: 0px;
+    top: 60px;
+
+    font-size: 30px;
+    line-height: 100%;
+  }
+  .hero-description {
+    width: 290px;
+    height: 73px;
+    left: 0px;
+    top: 150px;
+
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .btn-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20.5px 53.5px;
+
+    position: absolute;
+    width: 213px;
+    height: 60px;
+    left: 0px;
+    top: 300px;
+
+    background: #3f2aff;
+    border-radius: 20px;
+  }
+  .about-img-block {
+    display: none;
+  }
+  .section-about {
+    width: 290px;
+    height: 593px;
+  }
+  .h2 {
+    width: 290px;
+    height: 46px;
+
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+  }
+  .section-about-description {
+    width: 290px;
+    height: 202px;
+
+    margin-top: -70px;
+
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+  }
+  .section-about-text {
+    width: 290px;
+    height: 263px;
+    left: 0;
+  }
+
+  .section-about-img {
+    display: block;
+
+    margin-top: 320px;
+  }
+  .section-about-img-svg {
+    display: -webkit-box;
+
+    margin-left: 0;
+  }
+  .about-subtitle {
+    width: 180px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .section-teachers {
+    margin-top: 385px;
+    max-width: 320px;
+    height: 1522px;
+  }
+  .teachers-card {
+    width: 50%;
+  }
+  .teachers-name {
+    width: 288px;
+    height: 20px;
+
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .teachers-name-description {
+    width: 289px;
+    height: 65px;
+
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .row-teaxhers {
+    display: block;
+    margin-top: -25px;
+  }
+  .section-teachers-h2 {
+    margin: -48px;
+    padding: 0;
+  }
+  .teachers-card:not(:first-child) {
+    margin-top: 10px;
+  }
+  .section-courses {
+    width: 290px;
+    height: 2745px;
+  }
+  .row {
+    display: block;
+    margin: -90px 0 0 0;
+  }
+  .courses {
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .courses:nth-child(1),
+  .courses:nth-child(3) {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header {
+    height: 80px;
+  }
+  .nav {
+    display: none;
+  }
+  .header-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+  .section-hero {
+    width: 353px;
+  }
+  .h1 {
+    width: 226px;
+    height: 55px;
+    left: 0px;
+    top: 60px;
+
+    font-size: 30px;
+    line-height: 100%;
+  }
+  .hero-description {
+    width: 290px;
+    height: 73px;
+    left: 0px;
+    top: 150px;
+
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .btn-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20.5px 53.5px;
+
+    position: absolute;
+    width: 213px;
+    height: 60px;
+    left: 0px;
+    top: 300px;
+
+    background: #3f2aff;
+    border-radius: 20px;
+  }
+  .about-img-block {
+    display: none;
+  }
+  .section-about {
+    width: 290px;
+    height: 593px;
+  }
+  .h2 {
+    width: 290px;
+    height: 46px;
+
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+  }
+  .section-about-description {
+    width: 290px;
+    height: 202px;
+
+    margin-top: -70px;
+
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+  }
+  .section-about-text {
+    width: 290px;
+    height: 263px;
+    left: 0;
+  }
+
+  .section-about-img {
+    display: block;
+
+    margin-top: 320px;
+  }
+  .section-about-img-svg {
+    display: -webkit-box;
+
+    margin-left: 0;
+  }
+  .about-subtitle {
+    width: 180px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .section-teachers {
+    margin-top: 385px;
+    max-width: 320px;
+    height: 1522px;
+  }
+  .teachers-card {
+    width: 50%;
+  }
+  .teachers-name {
+    width: 288px;
+    height: 20px;
+
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .teachers-name-description {
+    width: 289px;
+    height: 65px;
+
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .row-teaxhers {
+    display: block;
+    margin-top: -25px;
+  }
+  .section-teachers-h2 {
+    margin: -48px;
+    padding: 0;
+  }
+  .teachers-card:not(:first-child) {
+    margin-top: 10px;
+  }
+  .section-courses {
+    width: 290px;
+    height: 2745px;
+  }
+  .row {
+    display: block;
+    margin: -90px 0 0 0;
+  }
+  .courses {
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .courses:nth-child(1),
+  .courses:nth-child(3) {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    height: 80px;
+  }
+  .nav {
+    display: none;
+  }
+  .header-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+  .section-hero {
+    width: 353px;
+  }
+  .h1 {
+    width: 226px;
+    height: 55px;
+    left: 0px;
+    top: 60px;
+
+    font-size: 30px;
+    line-height: 100%;
+  }
+  .hero-description {
+    width: 290px;
+    height: 73px;
+    left: 0px;
+    top: 150px;
+
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .btn-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20.5px 53.5px;
+
+    position: absolute;
+    width: 213px;
+    height: 60px;
+    left: 0px;
+    top: 300px;
+
+    background: #3f2aff;
+    border-radius: 20px;
+  }
+  .about-img-block {
+    display: none;
+  }
+  .section-about {
+    width: 290px;
+    height: 593px;
+  }
+  .h2 {
+    width: 290px;
+    height: 46px;
+
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+  }
+  .section-about-description {
+    width: 290px;
+    height: 202px;
+
+    margin-top: -70px;
+
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+  }
+  .section-about-text {
+    width: 290px;
+    height: 263px;
+    left: 0;
+  }
+
+  .section-about-img {
+    display: block;
+
+    margin-top: 320px;
+  }
+  .section-about-img-svg {
+    display: -webkit-box;
+
+    margin-left: 0;
+  }
+  .about-subtitle {
+    width: 180px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .section-teachers {
+    margin-top: 385px;
+    max-width: 320px;
+    height: 1522px;
+  }
+  .teachers-card {
+    width: 50%;
+  }
+  .teachers-name {
+    width: 288px;
+    height: 20px;
+
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .teachers-name-description {
+    width: 289px;
+    height: 65px;
+
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .row-teaxhers {
+    display: block;
+    margin-top: -25px;
+  }
+  .section-teachers-h2 {
+    margin: -48px;
+    padding: 0;
+  }
+  .teachers-card:not(:first-child) {
+    margin-top: 10px;
+  }
+  .section-courses {
+    width: 290px;
+    height: 2745px;
+  }
+  .row {
+    display: block;
+    margin: -90px 0 0 0;
+  }
+  .courses {
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .courses:nth-child(1),
+  .courses:nth-child(3) {
+    margin-left: 15px;
+  }
+}
